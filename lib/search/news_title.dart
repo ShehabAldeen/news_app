@@ -53,19 +53,18 @@ class NewsTitle extends StatelessWidget {
                     await launch(url);
                   }
                 },
-                child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      CustomText(
-                        text: 'View Full Article',
-                      ),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      Icon(Icons.article),
-                    ],
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    CustomText(
+                      text: 'View Full Article',
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+
+                    Icon(Icons.article),
+                  ],
                 ),
               ),
             ),
